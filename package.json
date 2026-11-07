@@ -1,0 +1,16 @@
+{
+  "name": "folio-business-finance",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dependency-free business finance dashboard demo",
+  "scripts": {
+    "dev": "node serve.mjs",
+    "start": "node serve.mjs",
+    "test": "node --test lib/finance.test.mjs",
+    "check": "node --check dist/app.mjs && node --check dist/finance.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
